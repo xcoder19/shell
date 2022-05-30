@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #looping 10 times
 for ((i=0;i<=10;i++)); do
-echo "Best School"
+echo 'Best School'
 done
