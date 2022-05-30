@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
 #task 8
-
-
 for f in *; do
-  echo " $f" | cut -d '-' -f2  
+  echo "$f" | cut -d '-' -f2  
 done
 
 
