@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#looping 10 times 
 i=0
 while [ $i -le 9 ]
 do
