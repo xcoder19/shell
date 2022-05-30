@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#looping 10 times 
+i=0
+while [ $i -le 9 ]
+do
+if [[ $i -eq 8 ]]
+then 
+echo "Best School"
+echo "Hi"
+((i++))
+else 
+echo "Best School"
+((i++))
+fi
+done
