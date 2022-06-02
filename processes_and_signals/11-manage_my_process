@@ -8,7 +8,7 @@ echo "manage_my_process started"
 ;;
 "stop")
 echo "manage_my_process stopped"	
-sudo pkill -f "manage_my_process" 
+sudo pkill -f "./manage_my_process" 
 rm -rf "/var/run/my_process.pid"	
 
 ;;
