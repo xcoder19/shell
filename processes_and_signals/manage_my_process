@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #infinity 
 
-#while :
-#do 
-#echo "I am alive!" >> /tmp/my_process
-#sleep 2
-#done
+while :
+do 
+echo "I am alive!" >> /tmp/my_process
+sleep 2
+done
