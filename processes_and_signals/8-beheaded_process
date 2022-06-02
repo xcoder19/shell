@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#kill force
+
+kill -9 "$(ps -ef | pgrep -f highlander)"
