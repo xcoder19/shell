@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#bash pid 
+#shellcheck disable=SC200
+ps auxf | grep bash
