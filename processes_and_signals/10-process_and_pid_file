@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 #programing stuff
-trap 'echo I hate the kill command' SIGTERM
+
 trap 'echo Y U no love me?!' SIGINT
 trap 'rm -rf /var/run/myscript.pid' SIGQUIT
 trap 'rm -rf /var/run/myscript.pid' SIGTERM
 
 echo $$ > /var/run/myscript.pid
+trap 'echo I hate the kill command' SIGTERM
 while : 
 do 
 echo "To infinity and beyond"
